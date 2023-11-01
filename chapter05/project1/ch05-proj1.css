@@ -1,0 +1,119 @@
+/* general text formatting */
+
+
+body {
+  font-family: "Roboto", Verdana, Arial, sans-serif;
+  font-size: 100%;
+  background-color: #ECEFF1;
+  margin:auto;
+
+}
+
+section {
+  background-color: white;
+  margin: 1em 4em 1em 4em;
+  border: solid 1pt black;
+  margin: 3em;
+}
+
+
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238;
+  
+}
+
+.status {
+  border-radius: 0.25rem;
+  padding: 3px;
+  color: white;
+
+}
+
+.status-processing {
+  background-color: #E65100;
+  word-wrap: break-word;
+}
+
+.status-shipped {
+  background-color: #4CAF50;
+}
+
+.status-pending {
+  background-color: #03A9F4;
+}
+
+
+
+/* table formatting -- you will add these */
+
+
+caption {
+  margin-right: 4em;
+  color: white;
+  background-color: #607D8B;
+  text-align: center;
+  padding: 0.7em;
+  font-family: arial, sans-serif;
+}
+
+
+table {
+  margin-left: 1em;
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+span {
+  color: white;
+  padding: 4px;
+  border-radius: 0.3rem;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+span{
+  word-wrap: normal;
+}
+
+legend, header{
+  background-color: #607D8B;
+  text-align: center;
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+}
+
+legend{
+  padding-left: 45%;
+  padding-right: 45%;
+}
+
+input[type=submit] {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 2em;
+  padding-left: 2em;
+  color: white;
+  background:#51279B; 
+  border: none;
+  cursor:pointer;
+}
+
+fieldset{
+  margin: 2em;
+}
+

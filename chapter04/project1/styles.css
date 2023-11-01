@@ -1,0 +1,96 @@
+img{
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+}
+
+h1 {
+    font-family: "Roboto Slab";
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9f2042;
+    margin-bottom: 0em;
+}
+
+#details {
+    color: #a9a9ba;
+    text-align: center;
+}
+
+blockquote {
+    font-family: "Roboto Slab";
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-color: #ececec;
+}
+
+body {
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0em;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    background-color: #f9f9f9;
+
+}
+
+a[href*="http"] {
+    border-style: solid;
+    border-color: #ececec;
+    padding: 10px;
+}
+
+a:hover[href*="http"] {
+
+    padding-top: 10px;
+    background-color: #a9a9ba;
+    color: #9f2042;
+
+}
+
+#buttons {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+a {
+    color: #ec8295;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+article {
+    background-color: white;
+}
+
+footer {
+    background-color: #29293a;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+}

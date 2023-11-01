@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="variables-palette-7.css">
+   <link rel="stylesheet" href="ch05-proj2.css" />
+</head>
+
+<body>
+   <form action="https://www.randyconnolly.com/tests/process.php" method="get">
+      <fieldset>
+         <legend>Advanced Art Work Search</legend>
+
+         <div id="searchBox">
+            <input type="text" placeholder="Search List" id="search" name="search">
+            <caption>Subject</caption>
+
+            <input type="radio" id="history" name="subject" value="History">
+            <label for="history">History</label>
+
+            <input type="radio" id="person" name="subject" value="Person">
+            <label for="person">Person</label>
+
+            <input type="radio" id="land" name="subject" value="Landscape">
+            <label for="land">Landscape</label>
+
+            <input type="text" name="filter" list="filter" placeholder="Select Genre">
+
+            <datalist id="filter">
+               <option>Baroque</option>
+               <option>Renaissance</option>
+               <option>Realism</option>
+            </datalist>
+
+            <input type="submit" id="submit" value="Filter">
+
+         </div>
+
+         <div id="settingsBox">
+            <input type="text" name="actions" list="actions" placeholder="Bulk Actions">
+
+            <datalist id="actions">
+               <option>Archive</option>
+               <option>Edit</option>
+               <option>Delete</option>
+               <option>Collection</option>
+            </datalist>
+
+            <input type="submit" id="submit" value="Apply to All">
+
+
+         </div>
+
+         <div id="paintingBox">
+            <header>Paintings</header>
+            <table>
+               <thead>
+                  <th colspan="3">Title</th>
+                  <th>Artist</th>
+                  <th>Year</th>
+                  <th>Genre</th>
+                  <th>Actions</th>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td><input type="checkbox" name="index[]" value="0" /></td>
+                     <td>
+                        <figure><img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/125010.jpg?raw=true"></figure>
+                     </td>
+                     <td>Portrait of Ailda Christina Assink</td>
+                     <td>Kussman Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td>
+                        <button id="edit">
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/edit.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/archive.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/delete.png?raw=true">
+                        </button>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><input type="checkbox" name="index[]" value="1" /></td>
+                     <td>
+                        <figure><img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/125020.jpg?raw=true"></figure>
+                     </td>
+                     <td>Portrait of William N. King of the Netherlands</td>
+                     <td>Kussman Jan</td>
+                     <td>1839</td>
+                     <td>Realism</td>
+                     <td>
+                        <button id="edit">
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/edit.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/archive.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/delete.png?raw=true">
+                        </button>
+                     </td>
+
+                  </tr>
+
+                  <tr>
+                     <td><input type="checkbox" name="index[]" value="2" /></td>
+                     <td>
+                        <figure><img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/130020.jpg?raw=true"></figure>
+                     </td>
+                     <td>Three girls from the american orphanage</td>
+                     <td>Schwartza Tharase</td>
+                     <td>1885</td>
+                     <td>Realism</td>
+                     <td>
+                        <button id="edit">
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/edit.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/archive.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/delete.png?raw=true">
+                        </button>
+                     </td>
+
+                  </tr>
+
+                  <tr>
+                     <td><input type="checkbox" name="index[]" value="3" /></td>
+                     <td>
+                        <figure><img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/127010.jpg?raw=true"></figure>
+                     </td>
+                     <td>The Windmill at Wijk bij Duursrede</td>
+                     <td>Rjsdae Jacobvan</td>
+                     <td>1579</td>
+                     <td>Dutch Golden Age</td>
+                     <td>
+                        <button id="edit">
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/edit.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/archive.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/delete.png?raw=true">
+                        </button>
+                     </td>
+
+                  </tr>
+
+                  <tr>
+                     <td><input type="checkbox" name="index[]" value="4" /></td>
+                     <td>
+                        <figure><img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/128010.jpg?raw=true"></figure>
+                     </td>
+                     <td>Morning Ride Along the Beach</td>
+                     <td>Neuve Anton</td>
+                     <td>1871</td>
+                     <td>Realism</td>
+                     <td>
+                        <button id="edit">
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/edit.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/archive.png?raw=true">
+                        </button>
+                        <button>
+                           <img src="https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter05/project2/images/delete.png?raw=true">
+                        </button>
+                     </td>
+
+                  </tr>
+               </tbody>
+
+            </table>
+
+         </div>
+      </fieldset>
+   </form>
+</body>
+
+</html>
+

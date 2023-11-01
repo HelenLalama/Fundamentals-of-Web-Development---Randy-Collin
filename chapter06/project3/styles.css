@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+nav,
+footer {
+    font-family: Lobster, Cambria, "Times New Roman", serif;
+    color: #FAFAFA;
+}
+
+body {
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+    background-image: linear-gradient(rgb(83, 83, 193), white);
+    /* I couldn't figure out how to fix the background of the bottom part */
+}
+
+header {
+    padding: 15px;
+    width: auto;
+    margin: 0 0;
+    background-image: repeating-linear-gradient(45deg, black 0, black 1em, rgb(34, 36, 128) 0, rgb(34, 36, 128) 3em);
+
+    height: 50px;
+}
+
+header h2 {
+    float: left;
+    font-size: 28pt;
+    margin-left: 10px;
+}
+
+header nav {
+    float: right;
+    margin: 10px 15px 10px 10px;
+    top: 5px;
+}
+
+main {
+    margin: 20px 10px;
+}
+
+
+section {
+    margin: 1em auto;
+    clear: left;
+    width: 90%;
+}
+
+section h1 {
+    margin-left: 1.5em;
+    font-size: 24pt;
+}
+
+
+figure {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+
+}
+
+figcaption {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 10px;
+}

@@ -1,0 +1,141 @@
+* {
+   box-sizing: border-box;
+}
+
+body,
+section,
+header,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+figure,
+figcaption {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #F0F4F8;
+   font-weight: 300;
+   margin-left: auto;
+   margin-right: auto;
+   width: fit-content;
+}
+
+
+header {
+   width: 100%;
+   background-image: url("images/florence.jpg");
+   min-height: 500px;
+   
+   
+   margin-bottom: 1em;
+}
+
+nav {
+   background-image: url("images/logo.png");
+   background-repeat: no-repeat;
+   background-size: 60px;
+   padding-left: 60px;
+   height: 60px;
+   margin-left: 0.5em;
+}
+
+nav li {
+   padding-top: 20px;
+   padding-left: 40px;
+   list-style-type: none;
+   display: inline-block;
+}
+
+#topbar a:link[href*="#"] {
+   color: #51279B;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+#topbar a:hover[href*="#"] {
+   color: #8662C7;
+}
+
+div a[href*="#"] {
+   color: white;
+   background-color: #51279B;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+div a:hover[href*="#"] {
+   color: white;
+   background-color: #8662C7;
+}
+
+header div h2 {
+   color: white;
+   margin-top: 2em;
+   margin-bottom: 20px;
+   font-size: 48px;
+}
+
+header div p {
+   color: white;
+   margin-bottom: 1em;
+   font-size: 24px;
+}
+
+header div {
+   margin-left: 6.4em;
+}
+
+.card {
+   display: inline-block;
+   margin-bottom: 2em;
+   background-color: white;
+}
+
+.card div {
+   margin-left: 0.5em;
+   margin-bottom: 1em;
+}
+
+h3 {
+   font-size: 14px;
+}
+
+.description {
+   font-size: 12px;
+}
+
+.heart {
+   font-size: 12px;
+   background-image: url("images/heart.png");
+   background-repeat: no-repeat;
+   background-size: 10px;
+   background-position: left;
+   padding-left: 1.2em;
+}
+
+.comment {
+   font-size: 12px;
+   background-image: url("images/comment.png");
+   background-repeat: no-repeat;
+   background-size: 10px;
+   background-position: 0.5em;
+   padding-left: 1.7em;
+}
+
+main {
+   width: 100%;
+   padding-left: 1em;
+   padding-right: 1em;
+}
